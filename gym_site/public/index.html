@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FitVerse Gym - Transform Your Body, Transform Your Life</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="navbar-brand">FitVerse</a>
+      <ul class="navbar-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="auth-buttons">
+        <button onclick="openModal('login')">Login</button>
+        <button onclick="openModal('register')">Join Now</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Transform Your Body, Transform Your Life</h1>
+      <p class="subtitle">Join thousands of members who've achieved their fitness goals with our expert trainers and state-of-the-art facilities</p>
+      <a href="#services" class="cta-button">Start Your Journey</a>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="stats">
+    <div class="stats-container">
+      <div class="stat-item">
+        <span class="stat-number">5000+</span>
+        <span class="stat-label">Happy Members</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">50+</span>
+        <span class="stat-label">Expert Trainers</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">15+</span>
+        <span class="stat-label">Years Experience</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">24/7</span>
+        <span class="stat-label">Gym Access</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="container">
+      <h2 class="section-title">Our Premium Services</h2>
+      <p class="section-subtitle">Choose from our comprehensive range of fitness programs designed to help you achieve your goals</p>
+      
+      <div class="services-grid">
+        <div class="service-card">
+          <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Personal Training" class="service-image">
+          <div class="service-content">
+            <h3 class="service-title">Personal Training</h3>
+            <p class="service-description">One-on-one training sessions with certified personal trainers</p>
+            <ul class="service-features">
+              <li>Customized workout plans</li>
+              <li>Nutrition guidance</li>
+              <li>Progress tracking</li>
+              <li>24/7 support</li>
+            </ul>
+            <div class="service-price">$80/session</div>
+          </div>
+        </div>
+        
+        <div class="service-card">
+          <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Group Classes" class="service-image">
+          <div class="service-content">
+            <h3 class="service-title">Group Classes</h3>
+            <p class="service-description">High-energy group fitness classes for all fitness levels</p>
+            <ul class="service-features">
+              <li>Yoga & Pilates</li>
+              <li>HIIT & Cardio</li>
+              <li>Strength Training</li>
+              <li>Dance Fitness</li>
+            </ul>
+            <div class="service-price">$25/class</div>
+          </div>
+        </div>
+        
+        <div class="service-card">
+          <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Gym Access" class="service-image">
+          <div class="service-content">
+            <h3 class="service-title">Premium Gym Access</h3>
+            <p class="service-description">24/7 access to our state-of-the-art fitness facility</p>
+            <ul class="service-features">
+              <li>Modern equipment</li>
+              <li>Cardio & strength zones</li>
+              <li>Locker rooms & showers</li>
+              <li>Free parking</li>
+            </ul>
+            <div class="service-price">$49/month</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials">
+    <div class="container">
+      <h2 class="section-title">What Our Members Say</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <p class="testimonial-text">"FitVerse changed my life! The trainers are amazing and the facilities are top-notch. I've lost 30 pounds and feel stronger than ever."</p>
+          <h4 class="testimonial-author">Sarah Johnson</h4>
+          <p class="testimonial-role">Member since 2023</p>
+        </div>
+        <div class="testimonial-card">
+          <p class="testimonial-text">"The group classes are fantastic! Great energy, motivating instructors, and I've made so many friends. Highly recommend!"</p>
+          <h4 class="testimonial-author">Mike Chen</h4>
+          <p class="testimonial-role">Member since 2022</p>
+        </div>
+        <div class="testimonial-card">
+          <p class="testimonial-text">"As a busy professional, having 24/7 access is perfect. The equipment is always clean and well-maintained."</p>
+          <h4 class="testimonial-author">Emily Rodriguez</h4>
+          <p class="testimonial-role">Member since 2024</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hours & Contact Section -->
+  <section class="info-section" id="contact">
+    <div class="container">
+      <h2 class="section-title">Visit Us Today</h2>
+      <div class="info-grid">
+        <div class="info-card">
+          <h3 class="info-title">Operating Hours</h3>
+          <ul class="hours-list">
+            <li><span>Monday - Friday</span><span>5:00 AM - 11:00 PM</span></li>
+            <li><span>Saturday</span><span>6:00 AM - 10:00 PM</span></li>
+            <li><span>Sunday</span><span>7:00 AM - 9:00 PM</span></li>
+            <li><span>Holidays</span><span>8:00 AM - 6:00 PM</span></li>
+          </ul>
+        </div>
+        <div class="info-card">
+          <h3 class="info-title">Contact Information</h3>
+          <ul class="contact-info">
+            <li><strong>Address:</strong> 123 Fitness Street, Health City, HC 12345</li>
+            <li><strong>Phone:</strong> (555) 123-4567</li>
+            <li><strong>Email:</strong> info@FitVersegym.com</li>
+            <li><strong>Emergency:</strong> (555) 123-HELP</li>
+          </ul>
+        </div>
+        <div class="info-card">
+          <h3 class="info-title">Why Choose FitVerse?</h3>
+          <ul class="service-features">
+            <li>Certified personal trainers</li>
+            <li>State-of-the-art equipment</li>
+            <li>Flexible membership options</li>
+            <li>Clean, safe environment</li>
+            <li>Nutritional counseling</li>
+            <li>Free trial sessions</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>FitVerse Gym</h3>
+        <p>Your journey to a healthier, stronger you starts here. Join our community of fitness enthusiasts and achieve your goals with expert guidance.</p>
+        <div class="social-links">
+          <a href="#" title="Facebook">f</a>
+          <a href="#" title="Instagram">i</a>
+          <a href="#" title="Twitter">t</a>
+          <a href="#" title="YouTube">y</a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#">Membership</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Services</h3>
+        <ul>
+          <li><a href="#">Personal Training</a></li>
+          <li><a href="#">Group Classes</a></li>
+          <li><a href="#">Nutrition Coaching</a></li>
+          <li><a href="#">Fitness Assessments</a></li>
+          <li><a href="#">Corporate Wellness</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Support</h3>
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Refund Policy</a></li>
+          <li><a href="#">Contact Support</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 FitVerse Gym. All rights reserved. | Designed with ❤️ for your fitness journey</p>
+    </div>
+  </footer>
+
+  <!-- Auth Modal -->
+  <div id="authModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <h2 id="modal-title">Login</h2>
+      <form id="auth-form">
+        <!-- Dynamic content -->
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
